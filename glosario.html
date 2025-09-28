@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Glosario de Ciberseguridad</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Glosario de Términos</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="cursos.html">Cursos</a>
+      <a href="glosario.html">Glosario</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <div class="termino" onclick="toggleDefinicion(this)">
+      <h3>Phishing</h3>
+      <p class="definicion">Técnica de engaño para obtener información confidencial como contraseñas o tarjetas de crédito.</p>
+    </div>
+
+    <div class="termino" onclick="toggleDefinicion(this)">
+      <h3>Malware</h3>
+      <p class="definicion">Software malicioso diseñado para dañar o robar información en un sistema.</p>
+    </div>
+
+    <div class="termino" onclick="toggleDefinicion(this)">
+      <h3>Firewall</h3>
+      <p class="definicion">Dispositivo o software que controla el tráfico entre redes para proteger los sistemas.</p>
+    </div>
+  </main>
+  <script src="js/glosario.js"></script>
+</body>
+</html>
